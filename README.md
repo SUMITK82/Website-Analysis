@@ -56,7 +56,7 @@ A comprehensive analysis of website traffic data to derive actionable insights i
 ```
 website-analysis/
 ├── Data.ipynb               # Jupyter notebook containing the complete analysis
-├── Website.csv              # Raw dataset (not included in repo)
+├── CSV File              # Raw dataset (not included in repo)
 ├── images/                  # Generated visualizations
 │   ├── Avg_Engagement_time.png
 │   ├── Channel_Performance_Area_Chart.png
