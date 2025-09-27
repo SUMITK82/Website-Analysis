@@ -1,5 +1,3 @@
-<div align="center">
-
 # 🌐 Website Traffic Analysis Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
@@ -8,48 +6,6 @@
 
 ![Website Analytics Dashboard](https://img.shields.io/badge/Website-Analytics-2ea44f?style=for-the-badge&logo=google-analytics)
 
-</div>
-
-## 📊 Project Overview
-
-A comprehensive analysis of website traffic data to derive actionable insights into user behavior, channel performance, and engagement metrics. This project utilizes Python's data science stack to process, analyze, and visualize website analytics data.
-
-<div align="center">
-  <h3>📈 Key Performance Metrics</h3>
-  <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px; margin-bottom: 30px;">
-    <div style="flex: 1; min-width: 45%;">
-      <img src="images/Engagement_Rates_Vs_Sessions_Over_time.png" alt="Engagement vs Sessions Over Time" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      <p style="text-align: center; font-style: italic; color: #666; margin-top: 8px;">Figure 1: Engagement rates and session trends over time</p>
-    </div>
-    <div style="flex: 1; min-width: 45%;">
-      <img src="images/Channel_Performance_Area_Chart.png" alt="Channel Performance Over Time" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      <p style="text-align: center; font-style: italic; color: #666; margin-top: 8px;">Figure 2: Channel performance distribution and trends</p>
-    </div>
-  </div>
-  
-  <h3>🔍 Detailed Analysis</h3>
-  <div style="display: flex; flex-direction: column; gap: 30px; margin: 20px 0;">
-    <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-      <h4>Engaged vs Non-Engaged Sessions</h4>
-      <div style="display: flex; justify-content: center; margin: 15px 0;">
-        <img src="images/Engaged_vs_Non-Engaged_Sessions.png" alt="Engaged vs Non-Engaged Sessions" style="max-width: 100%; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
-      </div>
-      <p style="text-align: center; font-style: italic; color: #666; margin-top: 10px;">
-        Figure 3: Distribution of engaged vs non-engaged sessions, showing the proportion of users who actively interacted with the website content
-      </p>
-    </div>
-    
-    <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-      <h4>Channel Performance Over Time</h4>
-      <div style="display: flex; justify-content: center; margin: 15px 0;">
-        <img src="images/Channel_Performance_Area_Chart.png" alt="Channel Performance Over Time" style="max-width: 100%; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
-      </div>
-      <p style="text-align: center; font-style: italic; color: #666; margin-top: 10px;">
-        Figure 4: Comprehensive view of channel performance trends over time, highlighting the dominance of Organic Social traffic
-      </p>
-    </div>
-  </div>
-</div>
 
 ## 🗂 Project Structure
 
@@ -131,28 +87,6 @@ xychart-beta
    Then open `Data.ipynb` to view and run the analysis.
 
 
-## 🔍 Key Insights
-
-### 📈 Traffic Analysis
-- **User Engagement Trends**: Analyze how user engagement changes over time
-- **Session Patterns**: Understand peak traffic hours and days
-- **Channel Performance**: Compare effectiveness of different traffic sources
-
-### 📊 Visualizations
-<div align="center">
-  <img src="images/Traffic_by_Hour_and_Channel.png" alt="Traffic Heatmap" width="80%">
-  <p><em>Figure: Hourly traffic distribution across different channels</em></p>
-</div>
-
-### 📈 Engagement Metrics
-- **Engagement Rate**: Measure of user interaction quality
-- **Session Duration**: Average time spent per session
-- **Bounce Rate**: Percentage of single-page visits
-
-<div align="center">
-  <img src="images/Engaged_vs_Non-Engaged_Sessions.png" alt="Engaged vs Non-Engaged Sessions" width="70%">
-</div>
-
 ## 🛠️ Dependencies
 
 - [pandas](https://pandas.pydata.org/) - Data manipulation and analysis
@@ -167,12 +101,6 @@ xychart-beta
 - `images/`: Directory containing all generated visualizations
 - `requirements.txt`: List of Python dependencies
 
-## 📊 Example Visualizations
-
-<div align="center">
-  <img src="images/Correlation_Heatmap.png" alt="Correlation Heatmap" width="45%">
-  <img src="images/Users_By_Channel.png" alt="Users by Channel" width="45%">
-</div>
 
 ## 🤝 Contributing
 
