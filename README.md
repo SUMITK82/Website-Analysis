@@ -74,6 +74,29 @@ website-analysis/
 └── requirements.txt         # Python dependencies
 ```
 
+## 📈 Engagement Analysis
+
+### Engagement Rates vs Sessions Over Time
+This visualization compares the daily engagement rates with the number of sessions over time.
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'primaryTextColor': '#000000', 'primaryBorderColor': '#000000', 'lineColor': '#000000', 'secondaryColor': '#006100', 'tertiaryColor': '#0000ff'}}}%%
+xychart-beta
+    title "Engagement Rates Vs Sessions Over time"
+    x-axis "Date" [2024-04-05, 2024-05-05]
+    y-axis "Count" 0 --> 100
+    line [0.5, 0.5, 0.4, 0.6, 0.3, 0.7, 0.5, 0.4, 0.6, 0.5, 0.4, 0.5, 0.6, 0.5, 0.4, 0.6, 0.7, 0.6, 0.5, 0.6, 0.5, 0.4, 0.6, 0.5, 0.6, 0.7, 0.6, 0.5, 0.6, 0.7]
+    line [20, 40, 60, 80, 70, 90, 100, 80, 70, 60, 50, 40, 60, 70, 80, 90, 100, 90, 80, 70, 80, 90, 100, 90, 80, 70, 80, 90, 100, 90]
+    legend
+        "Engagement rate" : line #0000ff
+        "Sessions" : line #006100
+```
+
+### Key Insights:
+- **Engagement Rate** (blue line): Remains consistently low throughout the period, indicating a relatively stable but low level of user interaction per session.
+- **Sessions** (green line): Shows significant daily fluctuations, with distinct peaks and valleys, suggesting daily or weekly patterns in website traffic.
+- The highest number of sessions approaches 100, while engagement rates remain below 1, which might indicate either very brief sessions or potential data scaling issues.
+
 ## 🚀 Getting Started
 
 ### Prerequisites
